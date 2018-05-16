@@ -6,15 +6,13 @@ library(readr) # For importing files
 library(dplyr) # For data manipulation
 library(stringr) # For string manipulation
 library(ggplot2) # For visualization
-library(descr) # For CrossTab
 library(sqldf) # For SQL
-library(moments) # For skewness and kurtosis
 
 
 
 
 # Reading data to a data frame
-Data_og <- read_csv("F:/IEM/Studies/Extra/R/DataProjects/Retail/RetailData.csv")
+Data_og <- read_csv("~/RetailData.csv")
 
 
 # Structure of the data
